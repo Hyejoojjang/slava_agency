@@ -1,0 +1,141 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+ .topnav {
+    color: #1a1f22;
+    overflow: hidden;
+    margin-top: -13vh;
+    margin-right: 10vh;
+    font-weight: 330;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #1a1f22;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.logo {
+    width: 100%;
+    border-color: lightblue;
+    background-color: white;
+    margin-top: -1.5vh;
+    padding: 2vh;
+    margin-left:-5vh;
+    padding-right: 4.1vh;
+}
+
+.logo_top {
+    margin-left: 12vh;
+    margin-bottom: -1vh;
+}
+
+.logo_bot {
+    font-size: 2.2vh;
+    font-weight:300;
+    margin-left: 12vh;
+}
+
+
+.russia {
+    position: fixed;
+    margin-top: -39vh;
+    weight: 100%;
+    margin-left: -1.3vh;
+}
+
+.main_info{
+    margin-top: 26vh;
+    margin-left: 3vh;
+}
+
+.info_text {
+    color: white;
+    font-weight: 400;
+    font-size: 4vh;
+}
+
+.second_part {
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    margin-left:-5vh;
+    padding-right: 6.1vh;
+}
+
+.contact {
+    margin-top: 20vh;
+    width: 100%;
+    background-color: white;
+    margin-left:-5vh;
+    padding-right: 6.1vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact_text_1{
+    margin-top: 5vh;
+    margin-left: 14vh;
+}
+
+.contact_text_2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.foot {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: 100;
+    height:5vh;
+    margin-top:-3vh;
+    margin-bottom:0vh;
+    z-index: 3px;
+    position: relative;
+}
+
+.wait {
+   align-content: center;
+   align-items: center;
+   margin-left: 50vh;
+}

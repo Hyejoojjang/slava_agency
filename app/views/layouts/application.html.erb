@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SlavaTemp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/mini_logo.png" />
+  </head>
+
+  <body>
+    <header>
+
+      <div class="logo">
+        <a class="logo_top" href="/post/home"> <%=image_tag("main_logo.png", {:alt=>"", :style=>"width: 18vh;"})%> </a>
+        <div class="logo_bot"> <p>Special Trade Company for CIS</p> </div>
+      </div>
+
+        <div class="topnav">
+          <a href="/post/contact">Contact</a>
+          <a href="/post/cis">CIS?</a>
+          <a href="/post/brand">Brand</a>
+          <a href="/post/home">Home</a>
+        </div>
+
+    </header>
+
+    <%= yield %>
+
+    <div class="foot">
+    <footer>
+        <a>상호 : 슬라바 에이전시 / Slava Agency | 사업자명 : 김하성(Slava Kim) | 주소 : 천마산로 25 105-2005 | 사업자등록번호 : 874-32-00611</a>
+    </footer>
+    </div>
+  </body>
+</html>

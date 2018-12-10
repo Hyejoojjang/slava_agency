@@ -1,0 +1,80 @@
+.russia {
+    position: absolute;
+    margin-top: -39vh;
+    weight: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.main{
+    position: relative;
+    display: table;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main_info{
+    margin-top: 20vh;
+    font-weight: 200;
+}
+
+.info_text {
+    color: white;
+    font-weight: 200;
+    font-size: 4vh;
+    text-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.15);
+}
+
+.second_part {
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    padding-right: 6.1vh;
+}
+
+.contact {
+    margin-top: 20vh;
+    width: 100%;
+    background-color: white;
+    padding-right: 6.1vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.contact_1 {
+    font-size: 5vh;
+    font-weight: 300;
+    margin-left: 10vh;
+    border-bottom: 1em;
+    border-bottom-color: lightgray
+}
+
+.contact_img {
+    margin-left:10vh;
+}
+
+footer{
+    background: #1a1f22;
+    text-align: center;
+    padding: 60px 15px;
+}
+
+.foot {
+    text-align: center;
+    font-family: 'Quicksand','Noto Sans KR',sans-serif;
+    color: #5f6365;
+    font-weight: 100;
+    height:100%;
+    weight:100%;
+    z-index: 3px;
+    margin-left: -1.2vh;
+    margin-right: -1.2vh;
+}
